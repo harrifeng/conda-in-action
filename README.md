@@ -78,3 +78,13 @@ use_pip: True
 verbosity: 0
 whitelist_channels: []
 ```
+
++ List all the env
+```
+conda env list
+```
+
++ Create new environment for python3
+```
+conda create -n Python35 python=3.5 --file requirements.txt
+```
